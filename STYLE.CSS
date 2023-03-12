@@ -1,0 +1,62 @@
+body {
+    background-color:black;
+    font-family: Arial;
+    color:white;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+h1:hover{
+    color:yellow;
+}
+.title{
+    text-align: center;
+    margin: 2rem 0;
+}
+#newArray{
+    justify-content: center;
+}
+#inputData{
+    
+    justify-content:center;
+}
+.btn{
+    width: 100%;
+}
+.visulizationClass{
+    
+    flex-direction:col-reverse;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    rotate: 180deg;  
+}
+.curVal-color{
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 30px;
+}
+.curVal{   
+}
+#data{
+    justify-content: center; 
+    font-family: 'roboto','sans-serif';
+    font-weight: bolder;
+    height: 50px;
+}
+#SelectionType ,#InsertionType ,#BubbleType {
+    height: 50px;
+    position: absolute;
+    left:10%;
+    right:10%;
+    font-size: 1rem;    
+}
+
+/* 
+****************************
+****************************
+****(© by Rutvik Bodara)****
+****************************
+****************************
+*/
+
+
