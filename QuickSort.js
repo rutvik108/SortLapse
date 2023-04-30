@@ -40,14 +40,14 @@ async function QuickSort(){
     await QuickMain(arr,low,high);
 
     //which are already at right place but not as a pivot so they are alredy sorted so change color 
-    for(let x=low; x<=high; x++){
+//     for(let x=low; x<=high; x++){
 
-        if(arr[x].style.background="green"){
+//         if(arr[x].style.background="green"){
 
-            arr[x].style.background="green";
+//             arr[x].style.background="green";
 
-        }
-    }
+//         }
+//     }
 
 }
  // main function of quick sort
