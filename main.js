@@ -42,6 +42,7 @@ function timedelay(times) {
     return new Promise(resolve => setTimeout(resolve,times));
 
     //also writen like this
+    
     // var times=new Promise(function(time){
     //     setTimeout(function(){
     //         time("solved");
@@ -219,6 +220,8 @@ var InsertionDatas="Insertion sort is a simple sorting algorithm that works simi
 
 var BubbleDatas="Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.";
 
+var QuickDatas="Quick Sort is a Divide and conquer algorithm which use pivots and compare the other array value with pivot and divide array in two parts one is smaller than pivot and second one is greater than pivot , this partition can be happen in two ways lamuto partition and hovers partition."; 
+
 //using for typing of data starting point
 var vali=0;
 
@@ -270,6 +273,26 @@ async function Bubbledata(){
 
 }
 
+//for Quick  sort
+
+var vali=0;
+
+//div of selection sort
+async function Quickdata(){ 
+
+    if(vali<QuickDatas.length){
+
+    document.querySelector("#QuickType").innerHTML +=QuickDatas.charAt(vali);
+
+    vali++;
+
+    setTimeout(Quickdata,75);
+
+    }
+
+}
+
+
 //delete removeSelectionData from the div
 function removeData(){
     
@@ -279,6 +302,7 @@ function removeData(){
     document.querySelector("#InsertionType").innerHTML='';
     document.querySelector("#SelectionType").innerHTML='';
     document.querySelector("#BubbleType").innerHTML='';
+    document.querySelector("#QuickType").innerHTML='';
     
 }
 
@@ -289,5 +313,7 @@ function removeData(){
 ****************************
 ****************************
 */
+
+
 
 
